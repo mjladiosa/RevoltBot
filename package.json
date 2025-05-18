@@ -1,0 +1,24 @@
+{
+  "name": "shapes-revolt-bot",
+  "version": "1.0.0",
+  "description": "A Revolt bot that uses the Shapes.inc API to provide character responses",
+  "main": "app-fix.js",
+  "scripts": {
+    "start": "node app-fix.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "revolt",
+    "bot",
+    "shapes",
+    "api",
+    "character"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "openai": "^4.29.0",
+    "revolt.js": "^6.0.0"
+  }
+}
