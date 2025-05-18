@@ -1,0 +1,13 @@
+services:
+  - type: worker
+    name: shapes-revolt-bot
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: SHAPES_API_KEY
+        sync: false
+      - key: SHAPES_CHARACTER_USERNAME
+        sync: false
+      - key: REVOLT_BOT_TOKEN
+        sync: false
